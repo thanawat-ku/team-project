@@ -1,12 +1,55 @@
 <html>
     <head>
         <title>Team Project</title>
+        <style>
+            body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.navbar {
+  background-color: #333; /* สีพื้นหลัง */
+  overflow: hidden;
+}
+
+.navbar ul {
+  list-style-type: none; /* เอาจุดหน้าเมนูออก */
+  margin: 0;
+  padding: 0;
+  display: flex; /* จัดเรียงเมนูให้อยู่ในแนวนอน */
+}
+
+.navbar li a {
+  display: block;
+  color: white; /* สีตัวอักษร */
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none; /* เอาเส้นใต้ลิงก์ออก */
+}
+
+.navbar li a:hover {
+  background-color: #ddd; /* สีเมื่อเอาเมาส์ไปวาง */
+  color: black;
+}
+        </style>
     </head>
     <body>
+
+        <nav class="navbar">
+  <ul>
+    <li><a href="#home">หน้าแรก</a></li>
+    <li><a href="#about">เกี่ยวกับเรา</a></li>
+    <li><a href="#services">บริการ</a></li>
+    <li><a href="#contact">ติดต่อเรา</a></li>
+  </ul>
+</nav>
+
+
         <h1>Team Project</h1>
         <ul>
             <li>Member</li>
             <li>Credit</li>
         </ul>
+
     </body>
 </html>
